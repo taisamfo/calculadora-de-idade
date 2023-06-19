@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de idade</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Calculadora de Idade</h1>
+  
+  <h2>Dia</h2>
+  <label for="birthDay"></label>
+  <input placeholder="DD" type="number" id="birthDay" min="1" max="31">
+  <h2>Mes</h2>
+  <label for="birthMonth"></label>
+  <input placeholder="MM" type="number" id="birthMonth" min="1" max="12">
+  <h2>Ano</h2>
+  <label for="birthYear"></label>
+  <input placeholder="YYYY" type="number" id="birthYear" min="1900" max="2023">
+ 
+  <br><br>
+  <img src="./IMG/favicon-32x32.png" alt="">
+  
+  <button onclick="calcularIdade()">Calcular</button>
+  
+  <div id="resultado"></div>
+    
+  <script src="./script.js"></script>
+</body>
+</html>
